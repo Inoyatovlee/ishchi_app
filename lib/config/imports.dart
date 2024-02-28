@@ -6,3 +6,4 @@ export 'package:get/get.dart';
 export 'package:flutter_svg/svg.dart';
 export 'package:ishci_app/config/icons.dart';
 export 'package:ishci_app/components/input.dart';
+export 'package:ishci_app/config/images.dart';
