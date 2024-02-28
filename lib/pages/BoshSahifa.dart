@@ -1,4 +1,5 @@
-import 'package:flutter/material.dart';
+import 'package:ishci_app/config/images.dart';
+import 'package:ishci_app/config/imports.dart';
 
 class BoshSahifa extends StatefulWidget {
   const BoshSahifa({super.key});
@@ -13,15 +14,18 @@ class _BoshSahifaState extends State<BoshSahifa> {
     return Scaffold(
       body: Column(
         children: [
-          Container(
-            padding: EdgeInsets.all(20),
-            child: TextField(
-              obscureText: false,
-              decoration: InputDecoration(
-                  prefixIcon: Icon(Icons.search),
-                  border: OutlineInputBorder(),
-                  hintText: "Ishingizni qidiring"),
-            ),
+          Column(
+            children: [
+              Container(
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                child: Input(hindText: "Ishingizni kiriting"),
+              ),
+              SizedBox(height: 40),
+              Container(
+                decoration: BoxDecoration(),
+              ),
+            ],
           )
         ],
       ),

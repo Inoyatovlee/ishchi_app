@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:ishci_app/pages/BoshSahifa.dart';
+import 'package:ishci_app/config/imports.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +10,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
         title: 'Flutter Demo',
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),

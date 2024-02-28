@@ -1,0 +1,23 @@
+class AppImages {
+  static String evos =
+      "https://s3-alpha-sig.figma.com/img/22dc/0d5b/240f0b236b9937a025d0c5b5922ec8e6?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HgJHangHvez-Wnia67T~paXHo9aw-Uyod2Q61JqRmmfHfdVJSuNtvmDSZDp8V7io5aUZ8EieElGiRqFusetAPkrvIMbQ5WBFpRW51Lv5uCoqU67Pj6tnLQhELY4v2gTBycyxwjrZjT09Krc9mXfy6oXK3FzKeoXnt4Xf~CYzxJ6vl7R3kOnqNKEwWqK66AH4zJimlCoQxjPugXO93HDWll2BnIcWSwEd5ETtc0s-gzxPt~ZuShrKwQVIlW86WDs4UR9jqhCFJWMSCZ8Gfay-W~xy3GRwdUFaBjG8PJedWpdAobizxQ4m8b8NE3IPP-riBC8NxoshJyGdbKupvsnlJg__";
+  static String cola =
+      "https://s3-alpha-sig.figma.com/img/22db/ca13/3d98ab3dbf40f4f316add16cdd719950?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=D8pYwTCD-ZK4NyQLXb6drlhkla5GOlqR9UUr4PNEgjSLtwkOu7KKocqhtDKqLKP0nzVcoy22WHT0wpZPOoFYklaZ5FVrLtg4ATLPiZbE-iDY8IsJJD77i--ZCHWYss1aNCmFeJkbmG4yzr9gUWzBh97eYkfiYUlDGbilI60e1npHAPYKw~TFsSdG76UGUWu1T9A8X5bSC3sfa8DgGXr-I8ffvQ-sLRSq--JFcJ9Y9Km5JrW4jh-RAbhxZGaUKwXqhZGK02zorHLMKVaWtqRifRDqpeKE5ixDBMsBSgsRlY5xErXvC0dV~0hYHj5V~5TZXRvjPrVDWdP1oRmRMuj33w__";
+  static String akfa =
+      "https://s3-alpha-sig.figma.com/img/10e1/d699/9947039338b120bc5d01b3b1c93aa115?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=K3nebojvXSpf4-PLqU8Vyby0jYe5OjAbMyGCqBosnbHUxPTpmEVmkPWkdLvaVZFa~~icKRnGeunGVJK2JLLcWMee4gABogmR0mZU0kzw4l4KLkWUmL7ENMdA9JdKzhvILhuwJyQYZ8izj9R0NAp9zBYGl6CENDtzub3HxHaiiUHR5yCNj-F-pvC1JByOerxV6bY8DP0q2bAHdx9-~3QJQ62YPDzQQtsx2SttsQ491f9Wwr4txq6wu73y61-AjwT3UoMImX1luSeQktDiYhLdlg1aZJ7~khxyCABzT86thHoEgeqCeLHvr-bqQKj4o4JToAj9sk7Voo8v1y8~ymqlbg__";
+
+  static String imzo =
+      "https://s3-alpha-sig.figma.com/img/3ccd/a644/9a62679c75ff5fa00cdccf4ed9907dfb?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=N8RaDR3yj6cptKp-T79OEsJaxdfwMlZqDqP84~2jyzXpsMMKUmPMBFgmwMeDmuo6kxZXjFrbeFPCAvzYNJGR7N-2hVIeXB~sQysGuXSdz7XVq9kLHcKRa4e1UK9DifZO6JIMG~0RjpJ1chvpxM2dwfYKrChKVXfzN6FxWUKeszIwx9pNffDbqKEnMttnE0zYgx8U-LXIvUwHEcWJfcmTY8DyHcoqjma3hQSws5dL1nOyrPawiyllqpFA0kbVA9n-QifEjIsSGCKUWC1tAHQvEC72Mowz410pDaV8GH0SffNlLFeq1bb4tOkstgGwpVfuhoyiHIebWigit3lHsm7PBg__";
+
+  static String crafers =
+      "https://s3-alpha-sig.figma.com/img/0bbe/ccdf/1afade6443dd4cb16e75e81b180f6df4?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SUxMsIx1iOaubUOzfXu2orKSxl25ymbbxEZ2GLJk6-jYI6Zvj57fSdimlFGiYHfFjddHlcuJHeHywa1F-Dp9xlUMaXPNkTdIEyrVkD0bhOxefXG-oCqiCZKk09nT0x8ZupJpEhNsgLYrOqDQKsVz5G~rZG-a1RbW9WbW93y~5CkWxpL7-eULVLubEpZPlP0AvuCRl5FBTB-10xlLjhq-4EP3zzTPJwytZe1l1wc3CMqK2uMOQgE6HOCuRlEn7VuiUj5DOCJZmnY7yXtLJO4EqWMaCJqfMnuLBxqb6TC~tI8kEAVNOPf7~jUbRP-~GwRq09OyOxxLmgTgNM9w1kQaUw__";
+
+  static String artel =
+      "https://s3-alpha-sig.figma.com/img/11a4/6307/881a822ec67bc7ebc436546376cd0b48?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TmoOhyT8rIYqtIMB9tf3M8s7mC8m5yKfoS36L9uUo0QF7ULYlzJtIH1zA7Eh7~OVRhLeB7yR81PROa58YKO~xNE3eVUf2N5TezUNCYgAceW9d4IpvSNxlkBYwPTu3Pe0QMRUKtafSd9kat-yOHs0Jz7j9u-4ZasN9-Kfj173e4MET3ssOxOIarKwytFxrJ7ktYPIJWlR5Gn5dGBckqxm7X1RNcMzj-fKYrz49xnFWIA~0H1h9J7~MpxbZCLm6meWWLeA5h9d9r7nTxEbh3BatGh5Ukrr2GM6v4DApqu23gzIxT~kcaeIJ4gg0GodOCtt2ifL3d7kyrDhA1rB3Abl0w__";
+
+  static String quti =
+      "https://s3-alpha-sig.figma.com/img/b3ea/6daf/a4f98816aae80fd3860720cae8192a29?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dd~V7cKlza3RFolrM-YKlwqA7~y87Mh2a1I5RKWI6z~ZnrlMCIahfmCxefGXM0MMOMeYxXfnyeIhPQLfiBWC4sTz-l8CYysU7dzkJI1~jhgMF0ZVrOJ1KRVSCNtJ1BZTkEyRXjKR5D294~cYY8Q--YPoXsejFW~zNJCLbHAMEIUy9-1-cQ2S13Lf4rwSok5u6M3DDnvLLhm7n9~3Hco0B7Mu1D-n~w0F0tMbCDZleEVUDFgSglTcv57YdzvA~WGBTZcY5S9cIqTtqW3RQ6tW7tNLih3K5iD3iNYA1JPXDDifLIU0bwD9bpDOtnM9l5tS9xbAnL1ufXa6B0fp8Hvgng__";
+
+  static String bola =
+      "https://s3-alpha-sig.figma.com/img/9e6f/0ece/fa65d90309d69dd19a1974b5dcc7cfb5?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Gp~e-Ma1pJxd-SQ6R~F-jAQIiITxvtt7Kf2ltqeuQZij9UNNf0nR9HXPWsi8lxmWvgkomFm0iYfzEYboKdPbRZua42qVHxLjIoHKJ-OXyJIS3IGtUq9v1EAbLQUFLJfecQ6kI7ykWk95QA5Hz8I9aHZyUTpAcR2aF-FdgWe~09vBFSMQRzgldbTBA79lHqftyUOAWR-J4WkTSQCJTcdsBAqMy-0CNZwv0I4o4vMV46C2djNqX2z9dfuEntPVmEAHOEEayOhNcTUBuhCvyUdJdfa4DzSrOj3iINacgbiew14HIgfUWtzRKjqIgC-s52tfDU4Wtmplrgi-b4nnDER-0Q__";
+}
