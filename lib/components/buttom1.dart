@@ -27,8 +27,7 @@ class Button1 extends StatelessWidget {
       child: Column(
         children: [
           Container(
-            padding: const EdgeInsets.all(20),
-            width: 83,
+            padding: EdgeInsets.all(20),
             height: 83,
             decoration: BoxDecoration(
                 border: Border.all(width: 1, color: AppColor.grey2),
