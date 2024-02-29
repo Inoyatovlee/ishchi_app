@@ -1,0 +1,13 @@
+export 'package:flutter/material.dart';
+export 'package:ishci_app/config/colors.dart';
+export 'package:ishci_app/config/helpers.dart';
+export 'package:ishci_app/pages/BoshSahifa.dart';
+export 'package:get/get.dart';
+export 'package:flutter_svg/svg.dart';
+export 'package:ishci_app/config/icons.dart';
+export 'package:ishci_app/components/input.dart';
+export 'package:ishci_app/config/img_url.dart';
+export 'package:ishci_app/components/buttom1.dart';
+export 'package:ishci_app/pages/Dizayner.dart';
+export 'package:ishci_app/pages/Dizayner/button_tezt.dart';
+export 'package:flutter/services.dart';
