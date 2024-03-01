@@ -45,7 +45,7 @@ class _DizaynerState extends State<Dizayner> {
                         )
                       ],
                     ),
-                    SizedBox(height: 8),
+                    const SizedBox(height: 8),
                     Row(
                       children: [
                         Row(
@@ -54,7 +54,7 @@ class _DizaynerState extends State<Dizayner> {
                               Icons.remove_red_eye,
                               color: AppColor.grey2,
                             ),
-                            SizedBox(width: 4),
+                            const SizedBox(width: 4),
                             Text(
                               "9:41",
                               style: TextStyle(
@@ -62,14 +62,14 @@ class _DizaynerState extends State<Dizayner> {
                             )
                           ],
                         ),
-                        SizedBox(width: 22),
+                        const SizedBox(width: 22),
                         Row(
                           children: [
                             Icon(
                               Icons.remove_red_eye,
                               color: AppColor.grey2,
                             ),
-                            SizedBox(width: 4),
+                            const SizedBox(width: 4),
                             Text(
                               "1164",
                               style: TextStyle(
@@ -77,7 +77,7 @@ class _DizaynerState extends State<Dizayner> {
                             )
                           ],
                         ),
-                        Spacer(),
+                        const Spacer(),
                         Text(
                           "2 500 000 uzs",
                           style: TextStyle(

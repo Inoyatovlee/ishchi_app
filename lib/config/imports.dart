@@ -8,6 +8,7 @@ export 'package:ishci_app/config/icons.dart';
 export 'package:ishci_app/components/input.dart';
 export 'package:ishci_app/config/img_url.dart';
 export 'package:ishci_app/components/buttom1.dart';
-export 'package:ishci_app/pages/Dizayner.dart';
+export 'package:ishci_app/pages/Dizayner/Dizayner.dart';
 export 'package:ishci_app/pages/Dizayner/button_tezt.dart';
 export 'package:flutter/services.dart';
+export 'package:ishci_app/pages/Dizayner2.dart';
