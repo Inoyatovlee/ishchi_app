@@ -12,3 +12,5 @@ export 'package:ishci_app/pages/Dizayner/Dizayner.dart';
 export 'package:ishci_app/pages/Dizayner/button_tezt.dart';
 export 'package:flutter/services.dart';
 export 'package:ishci_app/pages/Dizayner2.dart';
+export 'package:ishci_app/stores/home_controller.dart';
+export 'package:ishci_app/components/dizayner/dizayner.dart';
