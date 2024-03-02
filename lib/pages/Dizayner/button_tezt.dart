@@ -15,7 +15,7 @@ class button_tezt extends StatelessWidget {
           style: TextStyle(
               fontSize: 14, fontWeight: FontWeight.w600, color: AppColor.grey),
         ),
-        SizedBox(height: 8),
+        const SizedBox(height: 8),
         Row(
           children: [
             SizedBox(
