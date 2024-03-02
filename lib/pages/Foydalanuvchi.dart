@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:ishci_app/components/button.dart';
+import 'package:ishci_app/config/colors.dart';
 
 import 'package:ishci_app/config/imports.dart';
 
@@ -122,6 +124,17 @@ class _FoydalanuvchiState extends State<Foydalanuvchi> {
                 ]),
               ),
             ),
+            const SizedBox(height: 40),
+            Button(text: "Murojaat qiling"),
+            const SizedBox(height: 16),
+            Text(
+              "Rezyumeni ko'rish",
+              style: TextStyle(color: AppColor.green),
+            ),
+            Container(
+              color: AppColor.oq,
+              height: Checkbox.width,
+            )
           ],
         ),
       )),
