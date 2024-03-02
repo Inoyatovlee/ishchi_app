@@ -81,7 +81,7 @@ class _BoshSahifaState extends State<BoshSahifa> {
                                 color: AppColor.grey,
                                 fontSize: 16,
                                 fontWeight: FontWeight.w600)),
-                        trailing: Icon(Icons.arrow_drop_down),
+                        trailing: const Icon(Icons.arrow_drop_down),
                         children: [
                           Column(
                               children: List.generate(

@@ -17,3 +17,5 @@ export 'package:ishci_app/components/dizayner/kart.dart';
 export 'package:get/get_connect/http/src/request/request.dart';
 export 'package:ishci_app/components/BoshSahifa/MashhurCategory.dart';
 export 'package:ishci_app/components/BoshSahifa/OmmabobCategory.dart';
+export 'package:ishci_app/pages/Foydalanuvchi.dart';
+export 'package:ishci_app/components/dizayner/text_col.dart';
