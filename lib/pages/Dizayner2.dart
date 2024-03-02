@@ -14,20 +14,25 @@ class _Dizayner2State extends State<Dizayner2> {
     return GetBuilder<HomeController>(builder: (controller) {
       return Scaffold(
         appBar: AppBar(
-          title: Text(
-            "Dizayner",
-            style: TextStyle(
-                fontSize: 16,
-                fontWeight: FontWeight.w600,
-                color: AppColor.grey),
-            textAlign: TextAlign.center,
+          title: Center(
+            child: Text(
+              "Dizayner",
+              style: TextStyle(
+                  fontSize: 16,
+                  fontWeight: FontWeight.w600,
+                  color: AppColor.grey),
+              textAlign: TextAlign.center,
+            ),
           ),
         ),
         body: SingleChildScrollView(
-          child: Column(
-              children: List.generate(homeController.carti.length, (index) {
-            return Kart(carti: homeController.carti[index]);
-          })),
+          child: Container(
+            constraints: const BoxConstraints(maxWidth: 500),
+            child: Column(
+                children: List.generate(homeController.carti.length, (index) {
+              return Kart(carti: homeController.carti[index]);
+            })),
+          ),
         ),
       );
     });

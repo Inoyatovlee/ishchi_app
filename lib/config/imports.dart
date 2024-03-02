@@ -14,3 +14,6 @@ export 'package:flutter/services.dart';
 export 'package:ishci_app/pages/Dizayner2.dart';
 export 'package:ishci_app/stores/home_controller.dart';
 export 'package:ishci_app/components/dizayner/dizayner.dart';
+export 'package:get/get_connect/http/src/request/request.dart';
+export 'package:ishci_app/components/BoshSahifa/MashhurCategory.dart';
+export 'package:ishci_app/components/BoshSahifa/OmmabobCategory.dart';

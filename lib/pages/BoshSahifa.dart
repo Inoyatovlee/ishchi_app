@@ -55,49 +55,7 @@ class _BoshSahifaState extends State<BoshSahifa> {
                         ],
                       ),
                       const SizedBox(height: 12),
-                      Column(
-                        children: [
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Button1(
-                                name: "Dizayner",
-                                image: NetworkImages.qalam,
-                                onTap: () {
-                                  Get.to(const Dizayner2());
-                                },
-                              ),
-                              Button1(
-                                  name: "Dasturchi",
-                                  image: NetworkImages.kompyuter),
-                              Button1(
-                                  name: "Kopirayter",
-                                  image: NetworkImages.kitob),
-                              Button1(
-                                  name: "Video Montajyor",
-                                  image: NetworkImages.video)
-                            ],
-                          ),
-                          const SizedBox(height: 12),
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Button1(
-                                  name: "Telefon Ustasi",
-                                  image: NetworkImages.telefon),
-                              Button1(
-                                  name: "Kall operator",
-                                  image: NetworkImages.homeTel),
-                              Button1(
-                                  name: "Video operator",
-                                  image: NetworkImages.operator),
-                              Button1(
-                                  name: "Musiqachi",
-                                  image: NetworkImages.musiqa)
-                            ],
-                          ),
-                        ],
-                      ),
+                      OmmabobCategory(),
                       const SizedBox(height: 24),
                       Row(
                         children: [
@@ -115,30 +73,7 @@ class _BoshSahifaState extends State<BoshSahifa> {
                         ],
                       ),
                       const SizedBox(height: 12),
-                      Wrap(
-                        children: [
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Button1(name: "Evos", image: NetworkImages.evos),
-                              Button1(name: "Cola", image: NetworkImages.cola),
-                              Button1(name: "Akfa", image: NetworkImages.akfa),
-                            ],
-                          ),
-                          const SizedBox(height: 12),
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Button1(name: "Imzo", image: NetworkImages.imzo),
-                              Button1(
-                                  name: "Crafers",
-                                  image: NetworkImages.crafers),
-                              Button1(
-                                  name: "Artel", image: NetworkImages.artel),
-                            ],
-                          ),
-                        ],
-                      ),
+                      MashhurCategory(),
                       const SizedBox(height: 24),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,

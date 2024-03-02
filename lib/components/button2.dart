@@ -1,13 +1,14 @@
 import 'package:ishci_app/config/imports.dart';
 
+// MediaQuery_screenWidth
 // ignore: must_be_immutable
-class Button1 extends StatelessWidget {
+class Button2 extends StatelessWidget {
   Function? onTap;
   String? name;
   String image;
   bool dense;
 
-  Button1({
+  Button2({
     super.key,
     this.onTap,
     required this.image,
@@ -31,7 +32,7 @@ class Button1 extends StatelessWidget {
               padding: EdgeInsets.symmetric(
                   horizontal: dense ? 4 : 20, vertical: dense ? 4 : 18),
               height: 82,
-              width: screenWidth * 0.27,
+              width: screenWidth * 0.20,
               // width: 83,
               decoration: BoxDecoration(
                   border: Border.all(width: 0.1, color: AppColor.grey2),
