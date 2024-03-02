@@ -7,7 +7,6 @@ class MashhurCategory extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    double screenWidth = MediaQuery.of(context).size.width;
     return Wrap(
       children: [
         const SizedBox(height: 12),

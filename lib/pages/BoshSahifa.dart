@@ -8,7 +8,7 @@ class BoshSahifa extends StatefulWidget {
 }
 
 class _BoshSahifaState extends State<BoshSahifa> {
-  HomeController controller = Get.put(HomeController());
+  HomeController homeController = Get.put(HomeController());
   @override
   Widget build(BuildContext context) {
     return GetBuilder<HomeController>(
@@ -55,7 +55,7 @@ class _BoshSahifaState extends State<BoshSahifa> {
                         ],
                       ),
                       const SizedBox(height: 12),
-                      OmmabobCategory(),
+                      const OmmabobCategory(),
                       const SizedBox(height: 24),
                       Row(
                         children: [
@@ -73,19 +73,23 @@ class _BoshSahifaState extends State<BoshSahifa> {
                         ],
                       ),
                       const SizedBox(height: 12),
-                      MashhurCategory(),
+                      const MashhurCategory(),
                       const SizedBox(height: 24),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      ExpansionTile(
+                        title: Text("Yaqinda ko'rilganlar",
+                            style: TextStyle(
+                                color: AppColor.grey,
+                                fontSize: 16,
+                                fontWeight: FontWeight.w600)),
+                        trailing: Icon(Icons.arrow_drop_down),
                         children: [
-                          Text("Yaqinda ko'rilganlar",
-                              style: TextStyle(
-                                  color: AppColor.grey,
-                                  fontSize: 16,
-                                  fontWeight: FontWeight.w600)),
-                          const Icon(Icons.arrow_circle_right_outlined),
+                          Column(
+                              children: List.generate(
+                                  homeController.carti.length, (index) {
+                            return Kart(carti: homeController.carti[index]);
+                          })),
                         ],
-                      ),
+                      )
                     ],
                   ),
                 )
