@@ -19,3 +19,4 @@ export 'package:ishci_app/components/BoshSahifa/MashhurCategory.dart';
 export 'package:ishci_app/components/BoshSahifa/OmmabobCategory.dart';
 export 'package:ishci_app/pages/Foydalanuvchi.dart';
 export 'package:ishci_app/components/dizayner/text_col.dart';
+export 'package:ishci_app/components/button.dart';
