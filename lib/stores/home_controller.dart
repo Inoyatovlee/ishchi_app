@@ -12,7 +12,7 @@ class HomeController extends GetxController {
       "summa": "1 732 000",
     },
     {
-      "profile_img": NetworkImages.bola,
+      "profile_img": NetworkImages.bola2,
       "name": "Yuzupov Sobir",
       "time_botton": "9:00|19:00",
       "region": "Andijon",
@@ -21,7 +21,7 @@ class HomeController extends GetxController {
       "summa": "1 239 000",
     },
     {
-      "profile_img": NetworkImages.bola,
+      "profile_img": NetworkImages.bola3,
       "name": "Chapayev Bactjon",
       "time_botton": "9:00|19:00",
       "region": "Toshkent",
@@ -30,7 +30,7 @@ class HomeController extends GetxController {
       "summa": "2 239 000",
     },
     {
-      "profile_img": NetworkImages.bola,
+      "profile_img": NetworkImages.bola4,
       "name": "Qodirov Komil",
       "time_botton": "9:00|19:00",
       "region": "Samarqant",
@@ -39,7 +39,7 @@ class HomeController extends GetxController {
       "summa": "1 939 000",
     },
     {
-      "profile_img": NetworkImages.bola,
+      "profile_img": NetworkImages.bola5,
       "name": "Tursunboyev Yahyo",
       "time_botton": "9:00|19:00",
       "region": "Buxoro",
@@ -48,7 +48,7 @@ class HomeController extends GetxController {
       "summa": "3 239 000",
     },
     {
-      "profile_img": NetworkImages.bola,
+      "profile_img": NetworkImages.bola6,
       "name": "Nigmatov Asat",
       "time_botton": "9:00|19:00",
       "region": "Jizzax",
@@ -57,7 +57,7 @@ class HomeController extends GetxController {
       "summa": "2 239 000",
     },
     {
-      "profile_img": NetworkImages.bola,
+      "profile_img": NetworkImages.bola2,
       "name": "Qo'chqorov Eldor",
       "time_botton": "9:00|19:00",
       "region": "Samarqant",
@@ -66,7 +66,7 @@ class HomeController extends GetxController {
       "summa": "1 200 000",
     },
     {
-      "profile_img": NetworkImages.bola,
+      "profile_img": NetworkImages.bola3,
       "name": "Qobulov Dilshod",
       "time_botton": "9:00|19:00",
       "region": "Andijon",

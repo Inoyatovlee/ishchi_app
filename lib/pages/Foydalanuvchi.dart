@@ -1,7 +1,3 @@
-import 'package:flutter/material.dart';
-import 'package:ishci_app/components/button.dart';
-import 'package:ishci_app/config/colors.dart';
-
 import 'package:ishci_app/config/imports.dart';
 
 class Foydalanuvchi extends StatefulWidget {
@@ -92,11 +88,19 @@ class _FoydalanuvchiState extends State<Foydalanuvchi> {
                       fontSize: 18,
                       fontWeight: FontWeight.w600,
                       color: AppColor.grey)),
-              Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
-                Image.network(NetworkImages.bola, height: 125, width: 80),
-                Image.network(NetworkImages.bola, height: 125, width: 80),
-                Image.network(NetworkImages.bola, height: 125, width: 80),
-              ])
+              const SizedBox(height: 8),
+              SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Wrap(
+                  children: [
+                    Image.network(NetworkImages.portfolio, scale: 12),
+                    const SizedBox(width: 4),
+                    Image.network(NetworkImages.portfolio, scale: 12),
+                    const SizedBox(width: 4),
+                    Image.network(NetworkImages.portfolio, scale: 12),
+                  ],
+                ),
+              )
             ]),
             Container(
               color: AppColor.oq,
